@@ -16,11 +16,10 @@ function checkCrashed(tabs) {
     /* It's in a function to create a closure */
     (function() {
       var thisTab = tabs[tabsLength];
-
       if (
         (thisTab.url.substring(0, 4) == 'http' ||
           thisTab.url.substring(0, 4) == 'file' ||
-          thisTab.url === 'chrome://crash') &&
+          thisTab.url.substring(0, 14) === 'chrome://crash') &&
         thisTab.status == 'complete'
       ) {
         // Perform a no-op
