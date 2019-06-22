@@ -1,6 +1,6 @@
 {
   "name": "TabbySitter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Automatically reload tabs that have crashed, or have been sat around for a while. Handy for Kiosk mode where access is limited.",
   "homepage_url": "https://github.com/ikigeg/tabbysitter",
