@@ -2,7 +2,7 @@
   "name": "TabbySitter",
   "version": "1.0.0",
   "manifest_version": 2,
-  "description": "Automatically reload tabs that have crashed (Aw Snap! He's Dead Jim etc.), or have been sat around for a while. Handy for Kiosk mode where access is limited.",
+  "description": "Automatically reload tabs that have crashed, or have been sat around for a while. Handy for Kiosk mode where access is limited.",
   "homepage_url": "https://github.com/ikigeg/tabbysitter",
   "icons": {
     "16": "icons/icon16.png",
